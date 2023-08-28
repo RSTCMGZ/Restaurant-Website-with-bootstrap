@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <!--! Bootstrap CDN  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!--! Bootstrap Link CDN  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--! navbar start -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container fixed px-5">
+        <a class="navbar-brand text-white text-uppercase" href="#">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav gap-2">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold text-uppercase active"
+                aria-current="page"
+                href="#"
+                >Home <i class="bi bi-chevron-down"></i
+              ></a>
+              <!--! dropdown-menu start -->
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>HOME-IMAGE</li>
+                  <li>HOME-HEADER SLIDER</li>
+                  <li>HOme-Vıdeo Background</li>
+                  <li>HOme-Parallax</li>
+                  <li>HOme-Scroll anımatıon</li>
+                </ul>
+              </div>
+              <!--! dropdown-menu end -->
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold text-uppercase"
+                aria-current="page"
+                href="#"
+                >Menu<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>HOME-lıst</li>
+                  <li>HOME-Overplay</li>
+                  <li>HOme-tıle</li>
+                  <li>HOme-grıd</li>
+                  <li>Menu all</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Reservatıon<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>Reservatıon</li>
+                  <li>Reservatıon - Opentable</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Pages<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>About</li>
+                  <li>Gallery</li>
+                  <li>ShortCodes</li>
+                  <li>Logın/Sıgnup</li>
+                  <li>404 Page</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Recıpe<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>Recıpe- 2Col</li>
+                  <li>Recıpe- 3col</li>
+                  <li>recıpe- 4col</li>
+                  <li>recıpe- Masonry</li>
+                  <li>recıpe- sıngle</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Blog<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>Blog- Rıght sıdebar</li>
+                  <li>Blog- left sıdebar</li>
+                  <li>Blog- fullwıdth</li>
+                  <li>blog- masonry</li>
+                  <li>blog- sıngle</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Shop<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>Shop-full</li>
+                  <li>Shop- left sıdebar</li>
+                  <li>Shop- right sıdebar</li>
+                  <li>shop- cart</li>
+                  <li>shop- checkout</li>
+                  <li>shop- account</li>
+                  <li>shop- account detaıl</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Contact
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                ><i class="bi bi-cart3"></i>
+                <span>0</span>
+
+                <i class="bi bi-chevron-down"></i>
+              </a>
+              <div class="menu-dropdown-wrapper d-flex flex-column w-100">
+                <div class="cart-title">
+                  <h4>Shopping Cart</h4>
+                </div>
+                <div class="cart-items">
+                  <div class="cart-item-image">
+                    <a href="#">
+                      <img src="img/orders/cart-img1.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="cart-item-desc">
+                    <a href="#">Breakfast with coffee</a>
+                    <span class="cart-item-price">$19.99</span>
+                    <span class="cart-item-quantity">x2</span>
+                    <div class="close">
+                      <a href="#">
+                        <i class="bi bi-x"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-items">
+                  <div class="cart-item-image">
+                    <a href="#">
+                      <img src="img/orders/cart-img2.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="cart-item-desc">
+                    <a href="#"> Chicken stew</a>
+                    <span class="cart-item-price">$24.99</span>
+                    <span class="cart-item-quantity">x3</span>
+                    <div class="close">
+                      <a href="#">
+                        <i class="bi bi-x"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--! navbar end -->
+    <!--! hero img end -->
+    <section class="hero-img">
+      <div
+        class="d-flex flex-column align-items-center justify-content-center h-100"
+      >
+        <div class="logo">
+          <a href="#">
+            <img src="img/logo .png" alt="" />
+          </a>
+        </div>
+        <h1 class="text-white">DELICIOUS Food</h1>
+        <h2 class="text-white">
+          Tomato is a delitious restaurant website template
+        </h2>
+      </div>
+    </section>
+    <!--! hero img end -->
+    <!--! about  start -->
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="page-header">
+              <h1>
+                THE RESTAURANT <br />
+                <small
+                  >A little about us and a breif history of how we
+                  started.</small
+                >
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12 about-photo">
+                  <div class="image-thumb">
+                    <img src="img/thumbs/thumb1.png" class="img-fluid" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="row w-100">
+                <div class="col-sm-6 about-photo">
+                  <div class="image-thumb">
+                    <img src="img/thumbs/thumb2.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-sm-6 about-photo">
+                  <div class="image-thumb">
+                    <img src="img/thumbs/thumb3.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos ab dolorem veritatis similique obcaecati. Minus quidem
+              magnam dolor temporibus labore ab quis? Quo quia iusto unde vitae
+              inventore soluta dolore facilis autem maiores officia? Ullam
+              nostrum fugit voluptas maxime, quod iste placeat ut dignissimos
+              itaque beatae, voluptatem commodi rem totam?
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Necessitatibus quidem et placeat dicta mollitia ut! Amet nemo odit
+              maxime! Consequatur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! about  end -->
+  </body>
+</html>
