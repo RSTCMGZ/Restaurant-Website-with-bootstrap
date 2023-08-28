@@ -17,12 +17,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!--! navbar start -->
     <nav class="navbar navbar-expand-lg">
-      <div class="container fixed px-5">
+      <div class="container fixed ">
         <a class="navbar-brand text-white text-uppercase" href="#">Logo</a>
         <button
           class="navbar-toggler"
@@ -179,7 +180,7 @@
 
                 <i class="bi bi-chevron-down"></i>
               </a>
-              <div class="menu-dropdown-wrapper d-flex flex-column w-100">
+              <div class="menu-dropdown-wrapper d-flex flex-column w-100 bg-black">
                 <div class="cart-title">
                   <h4>Shopping Cart</h4>
                 </div>
@@ -301,5 +302,239 @@
       </div>
     </section>
     <!--! about  end -->
+    <!--! special  start -->
+    <section class="special">
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="page-header">
+              <h1 class="text-white text-center">
+                TODAY'S SPECIALS<br />
+                <small class="text-white"
+                  >A little about us and a breif history of how we started.
+                </small>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-offset-1 col-md-10">
+            <div class="special-slider product-wrapper product-carousel">
+              <div class="slider-item" data-glide-el="track">
+                <ul class="d-flex w-100 product-list glide__slides">
+                  <li class="product-item glide__slide">
+                    <div class="slider-img">
+                      <img
+                        src="img/slider-img/thumb4.png"
+                        class="img-fluid d-block"
+                        alt=""
+                      />
+                    </div>
+                    <div class="slider-content">
+                      <div class="page-header">
+                        <h1>
+                          3 Pancake with Caramel
+                          <small>
+                            <br />If you are a fan of caramel cake, then you'll
+                            love our Pancake with caramel icecream. It's not
+                            thick, but very tasty.</small
+                          >
+                        </h1>
+                      </div>
+                      <p>
+                        Ultrices In massa est, dignissim in libero ac, fringilla
+                        ornare mi.Ultrices eget justo. Nam purus lacus,
+                        efficitur eget laoreet sed, finibus nec neque. Cras eget
+                        enim in diam dapibus sagittis. accumsan, habitant morbi
+                        tristique senectus et netus et malesuada fames ac turpis
+                        egestas.
+                      </p>
+                      <div class="buttons w-100 m-5 text-center">
+                        <a href="#" class="button text-center">Order now</a>
+                        <a href="#" class="button-white text-center"
+                          >Add to cart</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-offset-1 col-md-10">
+            <div class="special-slider product-wrapper product-carousel">
+              <div class="slider-item" data-glide-el="track">
+                <ul class="d-flex product-list glide__slides">
+                  <li class="product-item glide__slide">
+                    <div class="slider-img">
+                      <img
+                        src="img/slider-img/thumb4.png"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="slider-content">
+                      <div class="page-header">
+                        <h1>
+                          1 meat
+                          <small>
+                            <br />Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Atque eum voluptatem rem, veniam,
+                            maiores numquam ducimus
+                          </small>
+                        </h1>
+                      </div>
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Animi porro veritatis qui modi, odio illo officia
+                        sequi, quia laborum voluptates incidunt repellendus
+                        inventore. Eum rem alias quos dolor itaque veniam
+                        praesentium optio ipsam illum adipisci, nam sit debitis
+                      </p>
+                      <div class="buttons w-100 m-5 text-center">
+                        <a href="#" class="button text-center">Order now</a>
+                        <a href="#" class="button-white text-center"
+                          >Add to cart</a
+                        >
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button
+            class="glide__arrow slider-dot glide__arrow--left"
+            data-glide-dir="<"
+            onclick="currentSlide(1)"
+          >
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <button
+            class="glide__arrow slider-dot glide__arrow--right"
+            data-glide-dir=">"
+            onclick="currentSlide(2)"
+          >
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--! special  end -->
+    <!--! reservation  start-->
+
+    <div class="section reservation">
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="page-header">
+              <h1 class="text-dark">
+                RESERVATIONS
+                <br />
+                <small class="text-black"
+                  >Book a table online. Leads will reach in your email.
+                </small>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="reservation-form w-100">
+          <form>
+            <div
+              class="row gap-5 d-flex align-items-center justify-content-center"
+            >
+              <div class="col-md-4 col-sm-6">
+                <div class="form-group">
+                  <label for="">Date</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Pick a date"
+                    aria-required="true"
+                  />
+                  <i class="bi bi-calendar"></i>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="form-group">
+                  <label for="">Your Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Full Name"
+                    aria-required="true"
+                  />
+                  <i class="bi bi-pencil-square"></i>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="form-group">
+                  <label for="">Time</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Pick a time"
+                    aria-required="true"
+                  />
+                  <i class="bi bi-stopwatch"></i>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="form-group">
+                  <label for="">Email Address</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Email ID"
+                    aria-required="true"
+                  />
+                  <i class="bi bi-envelope"></i>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="form-group">
+                  <label for="">Guests</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="How many of you?"
+                    aria-required="true"
+                  />
+                  <i class="bi bi-person-fill"></i>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="form-group">
+                  <label for="">Phone Number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your Phone Number"
+                    aria-required="true"
+                  />
+                  <i class="bi bi-telephone"></i>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12">
+              <div class="reservation-btn">
+              <button type="submit">Make Reservatıon</button>
+</div>
+            </div>
+          </form>
+        </div>
+        <div class="reservation-footer">
+          <p>You can also call: <strong>+1 224 6787 004</strong>  to make a reservation. </p>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!--! reservation  end-->
+
+    <script src="js/slider.js" type="module"></script>
   </body>
 </html>
