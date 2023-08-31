@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu</title>
+    <!--! Bootstrap CDN  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!--! Bootstrap Link CDN  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--! navbar start -->
+    <nav class="navbar navbar-expand-sm">
+      <div class="container fixed">
+        <a class="navbar-brand text-white text-uppercase" href="#">Logo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav gap-2">
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold text-uppercase active"
+                aria-current="page"
+                href="#"
+                >Home <i class="bi bi-chevron-down"></i
+              ></a>
+              <!--! dropdown-menu start -->
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>HOME-IMAGE</li>
+                  <li>HOME-HEADER SLIDER</li>
+                  <li>HOme-Vıdeo Background</li>
+                  <li>HOme-Parallax</li>
+                  <li>HOme-Scroll anımatıon</li>
+                </ul>
+              </div>
+              <!--! dropdown-menu end -->
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold text-uppercase"
+                aria-current="page"
+                href="#"
+                >Menu<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>HOME-lıst</li>
+                  <li>HOME-Overplay</li>
+                  <li>HOme-tıle</li>
+                  <li>HOme-grıd</li>
+                  <li>Menu all</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Reservatıon<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>Reservatıon</li>
+                  <li>Reservatıon - Opentable</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Pages<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>About</li>
+                  <li>Gallery</li>
+                  <li>ShortCodes</li>
+                  <li>Logın/Sıgnup</li>
+                  <li>404 Page</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Recıpe<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>Recıpe- 2Col</li>
+                  <li>Recıpe- 3col</li>
+                  <li>recıpe- 4col</li>
+                  <li>recıpe- Masonry</li>
+                  <li>recıpe- sıngle</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Blog<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>Blog- Rıght sıdebar</li>
+                  <li>Blog- left sıdebar</li>
+                  <li>Blog- fullwıdth</li>
+                  <li>blog- masonry</li>
+                  <li>blog- sıngle</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Shop<i class="bi bi-chevron-down"></i
+              ></a>
+              <div class="menu-dropdown-wrapper">
+                <ul class="menu-dropdown-content">
+                  <li>Shop-full</li>
+                  <li>Shop- left sıdebar</li>
+                  <li>Shop- right sıdebar</li>
+                  <li>shop- cart</li>
+                  <li>shop- checkout</li>
+                  <li>shop- account</li>
+                  <li>shop- account detaıl</li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                >Contact
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link text-white text-uppercase"
+                aria-current="page"
+                href="#"
+                ><i class="bi bi-cart3"></i>
+                <span>0</span>
+
+                <i class="bi bi-chevron-down"></i>
+              </a>
+              <div
+                class="menu-dropdown-wrapper d-flex flex-column w-100 bg-black"
+              >
+                <div class="cart-title">
+                  <h4>Shopping Cart</h4>
+                </div>
+                <div class="cart-items">
+                  <div class="cart-item-image">
+                    <a href="#">
+                      <img src="img/orders/cart-img1.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="cart-item-desc">
+                    <a href="#">Breakfast with coffee</a>
+                    <span class="cart-item-price">$19.99</span>
+                    <span class="cart-item-quantity">x2</span>
+                    <div class="close">
+                      <a href="#">
+                        <i class="bi bi-x"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="cart-items">
+                  <div class="cart-item-image">
+                    <a href="#">
+                      <img src="img/orders/cart-img2.jpg" alt="" />
+                    </a>
+                  </div>
+                  <div class="cart-item-desc">
+                    <a href="#"> Chicken stew</a>
+                    <span class="cart-item-price">$24.99</span>
+                    <span class="cart-item-quantity">x3</span>
+                    <div class="close">
+                      <a href="#">
+                        <i class="bi bi-x"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--! navbar end -->
+    <!--! hero img end -->
+    <section class="hero-img-1">
+      <div
+        class="d-flex flex-column align-items-center justify-content-center h-100"
+      >
+        <h2 class="text-white">PAGES</h2>
+        <p class="text-white">
+          Read our Story, How we started and about the Team
+        </p>
+      </div>
+    </section>
+    <!--! hero img end -->
+    <!--! page header start -->
+    <section class="page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="img/pages/about.png" alt="">
+                </div>
+                <div class="col-md-7 text-start" >
+                    <h2 class="text-left">Our Story</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage
+                    </p>
+                    <div class="page-button">
+                        <button type="submit" class="button" >See Our Menu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! page header end -->
+    <!--! trusted start -->
+    <section class="trusted-quote">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-1 col-md-10">
+            <div class="truested">
+              <ul>
+                <li>
+                  <img src="img/background-img/quote.png" alt="" />
+                  <p class="quote-body">
+                    This NYC historical landmark in the heart of the Theatre
+                    District has been serving up suds and down home pub food
+                    since 1892, surviving prohibition by renting the front of
+                    its then Rockefeller Center façade to Greek florists, while
+                    the Hurley brothers ran a speak-easy in back.
+                  </p>
+                  <p class="quote-author">
+                    Zachary Burton, <span>Sanfransisco</span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! trusted end -->
+  <!--! menu start -->
+  <section class="menu ">
+    <div class="container position-relative">
+ 
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <div class="page-header">
+            <h1 class="text-black">
+              OUR FEATURES
+              <br />
+              <small class="text-black"
+                >Little things make us best in town
+              </small>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-12">
+          <div class="menu-tags">
+            <span class="tagsort-active">All</span>
+            <span >starters</span>
+            <span >breakfast</span>
+            <span >lunch</span>
+            <span >dinner</span>
+            <span >desserts</span>
+          </div>
+        </div>
+      </div>
+     <div class="row">
+      <div class="col-6">
+        <div class="menu-wrapper position-relative">
+          <h4>ENGLISH ASPARAGUS</h4> 
+          <span class="price">$14.95</span> <br> <br>
+          <p>pellentesque enim. Aliquam tempor</p>
+          <div class="dotted-bg"></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="menu-wrapper position-relative">
+          <h4>ENGLISH ASPARAGUS</h4> 
+          <span class="price">$14.95</span> <br> <br>
+          <p>pellentesque enim. Aliquam tempor</p>
+          <div class="dotted-bg"></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="menu-wrapper position-relative">
+          <h4>ENGLISH ASPARAGUS</h4> 
+          <span class="price">$14.95</span> <br> <br>
+          <p>pellentesque enim. Aliquam tempor</p>
+          <div class="dotted-bg"></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="menu-wrapper position-relative">
+          <h4>ENGLISH ASPARAGUS</h4> 
+          <span class="price">$14.95</span> <br> <br>
+          <p>pellentesque enim. Aliquam tempor</p>
+          <div class="dotted-bg"></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="menu-wrapper position-relative">
+          <h4>ENGLISH ASPARAGUS</h4> 
+          <span class="price">$14.95</span> <br> <br>
+          <p>pellentesque enim. Aliquam tempor</p>
+          <div class="dotted-bg"></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="menu-wrapper position-relative">
+          <h4>ENGLISH ASPARAGUS</h4> 
+          <span class="price">$14.95</span> <br> <br>
+          <p>pellentesque enim. Aliquam tempor</p>
+          <div class="dotted-bg"></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="menu-wrapper position-relative">
+          <h4>ENGLISH ASPARAGUS</h4> 
+          <span class="price">$14.95</span> <br> <br>
+          <p>pellentesque enim. Aliquam tempor</p>
+          <div class="dotted-bg"></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="menu-wrapper position-relative">
+          <h4>ENGLISH ASPARAGUS</h4> 
+          <span class="price">$14.95</span> <br> <br>
+          <p>pellentesque enim. Aliquam tempor</p>
+          <div class="dotted-bg"></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="menu-wrapper position-relative">
+          <h4>ENGLISH ASPARAGUS</h4> 
+          <span class="price">$14.95</span> <br> <br>
+          <p>pellentesque enim. Aliquam tempor</p>
+          <div class="dotted-bg"></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="menu-wrapper position-relative">
+          <h4>ENGLISH ASPARAGUS</h4> 
+          <span class="price">$14.95</span> <br> <br>
+          <p>pellentesque enim. Aliquam tempor</p>
+          <div class="dotted-bg"></div>
+        </div>
+      </div>
+      
+     </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="reservation-btn">
+          <button type="submit">explore our menu </button>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--! menu end -->
+     <!--! subscribe start -->
+     <section class="subscribe">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1>Subscribe</h1>
+              <p>Get updates about new dishes and upcoming events</p>
+              <form >
+                <div class="form-group">
+                  <input type="text"  placeholder="Your Email Address" required>
+                  <button type="submit" class="">
+  
+                    <i class="bi bi-chevron-right"></i>
+                  </button>
+            </div>
+  
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--! subscribe end -->
+    <!--! footer start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <h1>about us</h1>
+            <p>
+              Duis leo justo, condimentum at purus eu,Aenean sed dolor sem.
+              Etiam massa libero, auctor vitae egestas et, accumsan quis
+              nunc.Duis leo justo, condimentum at purus eu, posuere pretium
+              tellus.
+            </p>
+            <a href="#">Read more →</a>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <h1>Recent post</h1>
+            <div class="footer-blog">
+              <a href="#">
+                <img src="img/thumbs/thumb8.png" alt="" />
+                <p class="footer-blog-text">
+                  Hand picked ingredients for our best customers
+                </p>
+                <p class="footer-blog-date">29 may 2015</p>
+              </a>
+            </div>
+            <div class="footer-blog">
+              <a href="#">
+                <img src="img/thumbs/thumb9.png" alt="" />
+                <p class="footer-blog-text">
+                  Daily special foods that you will going to love
+                </p>
+                <p class="footer-blog-date">29 may 2015</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <h1>Reach us</h1>
+            <div class="footer-social-icons">
+              <a href="#">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-google"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-youtube"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-vimeo"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-pinterest"></i>
+              </a>
+              <a href="#">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+            <div class="footer-address">
+              <p>
+                <i class="bi bi-geo-alt-fill"></i>
+                28 Seventh Avenue, Neew York, 10014
+              </p>
+              <p>
+                <i class="bi bi-telephone"></i>
+                Phone: (415) 124-5678
+              </p>
+              <p>
+                <i class="bi bi-envelope"></i>
+                support@restaurant.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyrights">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>
+                <i class="bi bi-c-circle"></i>
+                2015.Tomato.All rights reserved. Designed with
+                <i class="bi bi-heart"></i> by Surjithctly
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--! footer end -->
+    <script src="js/slider.js" type="module"></script>
+  </body>
+</html>
