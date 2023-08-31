@@ -781,3 +781,53 @@ ol {
 }
 
 /*! team end */
+/*! recipe start */
+.recipe {
+  padding: 85px 11%;
+}
+.recipe img {
+  float: left !important;
+  width: 254px !important;
+}
+.rc-info {
+  margin-left: 296px;
+  text-align: left;
+}
+.rc-info h4 {
+  text-align: left;
+  margin: 0;
+  font-size: 20px;
+  color: #4b4741;
+}
+.rc-ratings {
+  margin: 12px 0 10px;
+}
+.rc-ratings i {
+  color: gold !important;
+  font-size: 16px;
+}
+
+/*! recipe end */
+/*! featured recipe start */
+.featured-recipe {
+  padding: 85px 11%;
+}
+.featured-recipe h3 {
+  text-align: left;
+  font-size: 20px;
+  color: #4b4741;
+  margin: 0 0 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.featured-recipe .row h4 {
+  text-decoration: none;
+  text-align: left;
+  margin: 25px 0 -4px;
+}
+.featured-recipe .row a {
+  color: #4b4741;
+  font-weight: bold;
+}
+
+/*! featured recipe end */
