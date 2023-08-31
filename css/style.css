@@ -31,8 +31,7 @@ ol {
   z-index: 9999;
   background-color: rgba(0, 0, 0, 0.9) !important;
   height: 100px;
-  padding-left: 100px !important;
-  padding-right: 100px !important;
+  padding: 0 14% !important;
   max-width: 100%;
 }
 .collapse {
@@ -369,7 +368,7 @@ ol {
   position: relative;
   bottom: -1px;
   display: block;
-  width: 100%;
+  width: 100% !important;
   height: 5px;
   text-align: center;
   background: 0 center repeat-x url(../img/reservation-footer/zigzag.svg);
