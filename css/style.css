@@ -831,3 +831,57 @@ ol {
 }
 
 /*! featured recipe end */
+/*! blog-content start */
+.blog-content {
+  padding: 55px 0;
+}
+.blog-content h4 {
+  margin: 30px 0;
+  padding-left: 15%;
+  font-weight: bold;
+}
+.blog-content a {
+  color: #4b4741 !important;
+  font-size: 28px;
+}
+.blog-content a:hover {
+  color: #e7ad48 !important;
+}
+.post-date {
+  float: right;
+  font-family: Josefin Sans;
+  color: #8e8e8e;
+  font-size: 16px;
+  margin: 34px 0;
+  padding-right: 20%;
+}
+.blog-content p {
+  color: #0a0a0a;
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 29px;
+  padding: 0 9%;
+  font-weight: bold;
+}
+.blog-content hr {
+  margin: 0 0 30px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #000;
+}
+.reservation-btn-1 button {
+  background-color: #f9c56a;
+  border: none;
+  padding: 15px 40px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0.9;
+  transition: ease-in all 0.2s;
+}
+.reservation-btn-1 {
+  padding: 20px 9% !important;
+}
+
+/*! blog-content  end */
