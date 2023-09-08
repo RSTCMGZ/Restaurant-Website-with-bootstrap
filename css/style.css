@@ -1139,4 +1139,107 @@ ol {
   background-color: green !important;
   color: #fff !important;
 }
+.tab-style3 {
+  margin-top: 80px;
+  border-bottom: 1px solid #dcdddd;
+}
+
+.nav-tabs {
+  border-bottom: 0 !important;
+  padding: 35px 0;
+}
+.nav-tabs button:hover {
+  color: #000 !important;
+}
+.nav-tabs > li button {
+  color: #b9b9b9;
+  border: none !important;
+  margin: 0 0 1px;
+  background: 0 0 !important;
+  padding: 10px 0;
+}
+.nav-tabs > li button {
+  float: left;
+  margin-bottom: -1px;
+  padding: 0 35px 0 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.tab-content {
+  border-top: 1px solid #dcdddd;
+}
+.tab-content > .active {
+  display: block;
+  visibility: visible;
+}
+.tab-panel {
+  padding: 35px 0;
+}
+.tab-panel p {
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 30px;
+  color: #0a0a0a;
+}
+.list {
+  padding-left: 77px;
+  margin-bottom: 0;
+}
+.list span {
+  padding-left: 25px;
+  display: block;
+  margin-bottom: 5px;
+}
+.list span i {
+  color: #e4a83f;
+  font-size: 14px;
+}
+/*? review start */
+.tab-panel-review {
+  padding: 35px 0;
+  display: none;
+}
+.comment-list {
+  padding: 0;
+}
+.pull-left {
+  float: left !important;
+}
+.comment-meta {
+  margin-left: 70px;
+  margin-bottom: 5px;
+}
+.comment-meta a {
+  font-size: 14px;
+  color: #337ab7;
+}
+.comment-meta a:hover {
+  color: #000;
+}
+.comment-meta em {
+  font-style: normal;
+  margin-left: 6px;
+  font-size: 10px;
+}
+.rating2 {
+  display: table;
+  unicode-bidi: bidi-override;
+  padding-left: 20px;
+  position: relative;
+  top: -7px;
+}
+.rating2 > span {
+  display: inline-block;
+  position: relative;
+  font-size: 17px;
+  color: #f8cd00;
+}
+.comment-list li p {
+  margin-left: 70px;
+  line-height: 21px;
+  font-weight: bold;
+}
+/*? review end */
 /*! shop content end */
