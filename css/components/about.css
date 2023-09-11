@@ -62,3 +62,9 @@
 }
 
 /*! about end */
+/*! about responsive  */
+@media (max-width: 1000px) {
+  .about .image-thumb-1 {
+    display: none;
+  }
+}

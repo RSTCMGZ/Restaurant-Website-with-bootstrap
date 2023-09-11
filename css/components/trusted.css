@@ -32,3 +32,11 @@
   font-size: 18px;
 }
 /*! trusted end */
+/*! responsive */
+@media (max-width: 1024px) {
+  .trusted-sponsors {
+    display: flex !important;
+    align-items: center;
+    flex-direction: column !important;
+  }
+}

@@ -85,3 +85,26 @@
 }
 /*? glide end */
 /*! special end */
+/* responsive start */
+@media (max-width: 1250px) {
+  .special .bi-chevron-right,
+  .bi-chevron-left {
+    display: none !important;
+  }
+}
+@media (max-width: 865px) {
+  .special h1 {
+    font-size: 32px !important;
+    width: 100% !important;
+  }
+  .special-slider .slider-content p {
+    font-size: 18px !important;
+  }
+  .special img {
+    width: 100% !important;
+  }
+  .special .bi-chevron-right,
+  .bi-chevron-left {
+    display: none !important;
+  }
+}
