@@ -1,7 +1,6 @@
 /*! footer start */
 .footer {
-  background: url(../img/background-img/bg6.png) no-repeat center center;
-  background: url(../) no-repeat center center;
+  background: url(../../img/background-img/bg6.png) no-repeat center center;
   background-size: cover;
 }
 .footer h1 {
@@ -89,4 +88,5 @@
   color: #b5b5b4;
   font-size: 16px;
 }
+
 /*! footer end */

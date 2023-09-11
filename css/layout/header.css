@@ -107,11 +107,45 @@
   font-family: raleway, sans-serif;
 }
 .cart-item-quantity {
-  color: #c5c5c5;
+  color: #fcbfbf;
   font-size: 13px;
   font-family: raleway, sans-serif;
   position: relative;
   right: 0;
   top: 0;
+}
+/* header responsive */
+@media (max-width: 992px) {
+  .navbar {
+  }
+  .navbar .fixed {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 !important;
+  }
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    border-radius: 10px;
+  }
+  .navbar-toggler i {
+    color: #fff !important;
+    font-size: 40px;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .menu-dropdown-wrapper {
+    display: none !important;
+  }
+
+  .nav-link i,
+  .span {
+    display: none !important;
+  }
+  .menu-list-item a {
+    font-size: 16px !important;
+  }
 }
 /*! navbar end */
