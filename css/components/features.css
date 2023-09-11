@@ -1,0 +1,23 @@
+/*! features  start */
+.features {
+  background: url(../img/features/bg4.png) no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.features .features-tile {
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.features-img {
+  overflow: hidden;
+}
+.features-img img:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+  opacity: 1;
+}
+.features .features-tile .features-content {
+  padding: 5px 25px 10px;
+}
+/*! features  end */

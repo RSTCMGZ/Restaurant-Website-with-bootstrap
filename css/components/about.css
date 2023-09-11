@@ -1,0 +1,64 @@
+/*! about start */
+.page-header {
+  border: none;
+  margin: 80px 0 40px !important;
+}
+.features-content .price {
+  font-family: Josefin Sans;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #e7ad48;
+  width: 100%;
+  display: table;
+  margin: 0;
+  padding: 13px 0 45px;
+}
+.features-content p {
+  color: #4b4741;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.page-header h1 {
+  text-transform: uppercase;
+  color: #4b4741;
+  text-align: center;
+  font-weight: 800;
+}
+.page-header h4 {
+  font-size: 19px;
+  color: #4b4741;
+  margin: 46px 0 15px;
+  font-weight: bold;
+}
+.page-header small {
+  font-weight: 400;
+  line-height: 1;
+  color: #777;
+  font-size: 23.4px;
+  text-transform: lowercase;
+}
+.page-header:after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 3px;
+  width: 113px;
+  background-color: #f9c56a;
+  margin: 0 auto;
+}
+.col-md-8 p {
+  color: #828281;
+  font-size: 22px;
+  font-weight: bold;
+}
+.about .about-photo {
+  padding: 5px;
+  cursor: pointer;
+}
+.about {
+  padding-bottom: 80px;
+}
+
+/*! about end */

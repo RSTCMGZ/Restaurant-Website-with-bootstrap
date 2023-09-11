@@ -1,0 +1,33 @@
+/*! trusted start */
+.trusted-quote {
+  background: url(../img/background-img/bg5.png) no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.trusted-quote img {
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.truested {
+  margin-bottom: 30px;
+}
+.trusted-quote .quote-body {
+  color: #fff;
+  margin: 20px 0;
+  font-size: 31px;
+}
+.trusted-quote .quote-author {
+  font-weight: 700;
+  color: #fff;
+  margin: 20px 0;
+  font-size: 26px;
+}
+.trusted-quote .quote-author span {
+  display: inline;
+  font-weight: 400;
+  font-size: 18px;
+}
+/*! trusted end */

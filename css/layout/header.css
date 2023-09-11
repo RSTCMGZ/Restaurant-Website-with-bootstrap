@@ -1,0 +1,117 @@
+/*! navbar start */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: #fff;
+  z-index: 9999;
+  transition: 0.4s;
+  height: 100px;
+  width: 100% !important;
+}
+.fixed {
+  position: fixed;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  height: 100px;
+  padding: 0 14% !important;
+  max-width: 100%;
+}
+.collapse {
+  position: relative;
+}
+.collapse .menu-dropdown-wrapper {
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+.menu-dropdown-content {
+  width: 220px;
+  background-color: #000;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 10px;
+}
+.menu-dropdown-content a:hover {
+  color: black;
+}
+.nav-item:hover .menu-dropdown-wrapper {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-item .nav-link span {
+  position: absolute;
+  background: #f9c56a;
+  float: left;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 17px;
+  border-radius: 50%;
+  color: #000 !important;
+  margin-right: 5px;
+  right: 25px;
+}
+.bi-cart3 {
+  margin-right: 30px;
+  font-size: 18px;
+}
+.bi-chevron-down {
+  font-size: 18px;
+  margin-left: 5px;
+}
+.menu-dropdown-wrapper .cart-title {
+  border-top: 2px solid #f9c56a;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px;
+}
+.menu-dropdown-wrapper .cart-title {
+  margin: 0;
+  color: #fff;
+  text-align: left;
+}
+.menu-dropdown-wrapper .cart-items {
+  position: relative;
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.menu-dropdown-wrapper .cart-item-image {
+  float: left;
+  margin-right: 15px;
+}
+.cart-item-desc {
+  position: relative !important;
+}
+.cart-item-desc .close {
+  position: absolute;
+  left: 300px;
+  top: 0;
+}
+.cart-item-desc .close i {
+  font-size: 25px !important;
+}
+.cart-item-desc a {
+  display: block;
+  text-decoration: none;
+  color: #ececec;
+  font-weight: 700;
+  font-family: Josefin Sans;
+  font-size: 15px;
+}
+.cart-item-price {
+  color: #c5c5c5;
+  font-size: 13px;
+  font-family: raleway, sans-serif;
+}
+.cart-item-quantity {
+  color: #c5c5c5;
+  font-size: 13px;
+  font-family: raleway, sans-serif;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+/*! navbar end */

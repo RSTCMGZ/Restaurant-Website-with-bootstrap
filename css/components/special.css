@@ -1,0 +1,87 @@
+/*! special start */
+.special {
+  background: url(../img/special/bg3.png) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+.special h1 {
+  font-size: 30px;
+  text-align: left;
+  text-transform: none;
+  font-weight: 700;
+}
+.special-slider {
+  background-color: #fff;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+.slider-content {
+  width: 65%;
+  float: left;
+  padding: 0 30px;
+}
+.slider-img {
+  width: 35%;
+  height: 100% !important;
+  float: left;
+}
+.page-header {
+  margin: 20px 0 10px;
+}
+.button {
+  margin: 17px 10px 20px 0 !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  letter-spacing: normal;
+  padding: 10px 25px !important;
+  border: none;
+  background-color: #f9c56a;
+  color: #000;
+  text-transform: uppercase;
+}
+.button-white {
+  background-color: #e9e5dd;
+  color: #8c8881;
+  border: 1px solid #e9e5dd;
+  margin: 17px 10px 20px 0;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: normal;
+  padding: 10px 25px;
+}
+.slider-content .page-header:after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 3px;
+  width: 113px;
+  background-color: #f9c56a;
+  margin: 0;
+}
+.special-slider .slider-content p {
+  font-size: 21px;
+  margin-bottom: 0;
+  color: #828281;
+}
+/*? glide start */
+
+.glide__arrow {
+  position: absolute;
+  top: 50%;
+  background-color: transparent;
+}
+
+.glide__arrow--left {
+  left: 50px;
+}
+
+.glide__arrow--right {
+  right: 175px;
+}
+
+.glide__arrow i {
+  font-size: 40px;
+  color: #fff;
+}
+/*? glide end */
+/*! special end */

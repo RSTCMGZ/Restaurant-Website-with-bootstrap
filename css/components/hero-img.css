@@ -1,0 +1,21 @@
+/*! hero-img start */
+.hero-img {
+  background-image: url(../img/hero-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150vh;
+  width: 100%;
+  margin-top: -220px;
+}
+.hero-img h1 {
+  color: #fff;
+  font-size: 72px;
+}
+.hero-img h2 {
+  text-transform: none;
+  font-weight: 400;
+  color: #e6e6e6;
+  font-size: 36px;
+}
+/*! hero-img end */

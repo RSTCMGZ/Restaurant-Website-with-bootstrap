@@ -1,0 +1,25 @@
+/*! team start */
+.team {
+  padding-bottom: 100px;
+}
+.team .brd {
+  border-bottom: 1px solid #dcdddd;
+  padding-bottom: 30px;
+}
+.team h4 {
+  font-size: 16px;
+  margin: 37px 0 3px;
+  color: #4b4741;
+  font-weight: bold;
+}
+.team p {
+  color: #0a0a0a;
+  font-size: 18px;
+  margin: 0;
+}
+.team-social {
+  margin: 20px auto 0;
+  padding: 0;
+}
+
+/*! team end */

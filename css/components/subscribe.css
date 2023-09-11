@@ -1,0 +1,36 @@
+/*! subscribe start */
+.subscribe {
+  padding: 30px 0;
+  background: #f7f3f4;
+}
+.subscribe h1 {
+  font-size: 45px;
+  color: #4b4741;
+}
+.subscribe p {
+  font-size: 22px;
+  color: #828281;
+}
+.subscribe input {
+  border: 2px solid #f9c56a !important;
+  background: #fff none repeat scroll 0% 0%;
+  margin: 0 20px;
+  width: 263px !important;
+  line-height: 42px;
+  height: 46px;
+}
+.subscribe form button {
+  padding: 0 15px;
+  height: 46px;
+  border: 1px solid #f2ba57;
+  transition: all 0.5s ease;
+  background-color: #f2ba57;
+}
+.subscribe form button:hover {
+  opacity: 0.8 !important;
+}
+.subscribe form .bi-chevron-right {
+  font-size: 25px;
+  padding: 0 8px;
+}
+/*! subscribe end */
