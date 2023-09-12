@@ -1,0 +1,138 @@
+.add-to-card {
+  padding: 60px 0;
+  font-family: Josefin Sans;
+}
+.cart-table {
+  font-size: 16px;
+}
+.table-bordered {
+  border: 1px solid #ddd;
+}
+.table {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-bottom: 20px;
+}
+.cart-table thead {
+  border-top: 1px solid #000;
+}
+.table thead tr th {
+  border-radius: 0 !important;
+  border: none;
+}
+.cart-table thead tr th,
+.cart-table tbody tr td {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+.cart-table thead tr th {
+  background: #000;
+  color: #fff;
+  border: 1px solid #222;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.cart-table tbody tr td a {
+  color: #000 !important;
+  font-weight: 700;
+  font-size: 15px !important;
+}
+.delete-cart {
+  font-weight: bold !important;
+  font-size: 25px;
+}
+.cart-table tbody tr td span {
+  color: #333 !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+}
+.coupon {
+  width: 260px;
+  text-align: left;
+  padding: 5px 0 10px;
+}
+.form-group label {
+  font-size: 18px;
+  font-weight: 400;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+.coupon input {
+  width: 70%;
+  float: left;
+}
+.coupon input:focus {
+  background-color: #f3f1ed !important;
+}
+.coupon button {
+  color: #fff;
+  text-transform: uppercase;
+  background: #848484;
+  height: 44px !important;
+  padding: 0 15px !important;
+  border: none;
+  line-height: 34px;
+  width: 30% !important;
+  font-size: 12px;
+  transition: 0.4s;
+  font-weight: 700;
+}
+.coupon button:hover {
+  background-color: #f9c56a;
+  color: #000;
+}
+.cart-btn {
+  float: right;
+  margin-top: 17px;
+}
+.cart-btn button {
+  text-transform: uppercase !important;
+  font-weight: bold;
+}
+.cart-btn button:hover {
+  background-color: #f9c56a;
+  opacity: 0.8;
+}
+.cart-btn .btn-success {
+  background-color: #198754 !important;
+}
+.btn-default {
+  background-color: #f9c56a;
+}
+.col-md-6 h4 {
+  font-size: 18px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .row {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .cart-table {
+    font-size: 8px !important;
+  }
+}
