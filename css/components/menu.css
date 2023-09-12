@@ -62,3 +62,12 @@
   font-size: 22px;
 }
 /*! menu  end */
+
+@media (max-width: 1200px) {
+  .subscribe .form-group {
+    display: inline-block;
+  }
+  .subscribe .form-group button {
+    margin: 20px 0 !important;
+  }
+}

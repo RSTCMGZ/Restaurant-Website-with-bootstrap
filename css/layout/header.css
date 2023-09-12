@@ -113,6 +113,7 @@
   right: 0;
   top: 0;
 }
+
 /* header responsive */
 @media (max-width: 1286px) {
   .navbar .fixed {

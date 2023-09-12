@@ -67,3 +67,16 @@
   background: 0 center repeat-x url(../../img/reservation-footer/zigzag.svg);
 }
 /*! reservation  end */
+/*! responsive start */
+
+@media (max-width: 1024px) {
+  .recipe img {
+    float: none !important;
+    width: 100% !important;
+    margin-bottom: 25px !important;
+  }
+  .rc-info {
+    margin-bottom: 30px !important;
+    margin-left: 0 !important;
+  }
+}
