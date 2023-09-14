@@ -78,6 +78,12 @@
   font-size: 18px;
   margin: 6px 0 27px;
 }
+.shop-oldprice {
+  text-align: center;
+  color: #4b4741;
+  font-size: 18px;
+  margin: 6px 0 27px;
+}
 .shop-meta {
   border-top: 1px solid #f1f1f1;
   border-bottom: 1px solid #f1f1f1;
@@ -88,9 +94,19 @@
 .shop-meta a {
   color: #0a0a0a;
   font-size: 16px;
+  padding: 2px;
+  border: 1px solid #000;
+}
+.shop-meta a:hover {
+  background-color: #000 !important;
+  color: #fff !important;
 }
 .shop-meta a i {
-  margin-right: 8px;
+  pointer-events: none !important;
+}
+.shop-meta button {
+  border: none !important;
+  background-color: #fff;
 }
 /*! shop end */
 /*! shop content start */

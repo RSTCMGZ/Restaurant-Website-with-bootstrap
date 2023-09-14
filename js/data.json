@@ -1,0 +1,145 @@
+[
+    {
+        "id": 1,
+        "name": "Karışık Çerez",
+        "price": {
+            "oldPrice": 165.00,
+            "newPrice": 108.00
+        },
+        "discount": 22,
+        "img": {
+            "singleImage": "img/shop/1.png",
+            "thumbs": [
+                "img/shop/1.png"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "Antep Fıstığı",
+        "price": {
+            "oldPrice": 250.00,
+            "newPrice": 208.00
+        },
+        "discount": 33,
+        "img": {
+            "singleImage": "img/shop/2.png",
+            "thumbs": [
+                "img/shop/2.png"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Çubuk Kraker",
+        "price": {
+            "oldPrice": 90.00,
+            "newPrice": 38.00
+        },
+        "discount": 90,
+        "img": {
+            "singleImage": "img/shop/3.png",
+            "thumbs": [
+                "img/products/product3/1.png",
+                "img/products/product3/2.png",
+                "img/products/product3/3.png"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "Kraker",
+        "price": {
+            "oldPrice": 95.00,
+            "newPrice": 80.00
+        },
+        "discount": 40,
+        "img": {
+            "singleImage": "img/shop/4.png",
+
+            "thumbs": [
+                "img/shop/4.png"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Kek",
+        "price": {
+            "oldPrice": 165.00,
+            "newPrice": 99.00
+        },
+        "discount": 40,
+        "img": {
+            "singleImage": "img/shop/5.png",
+
+            "thumbs": [
+                "img/shop/5.png"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "name": "Dilim Pizza",
+        "price": {
+            "oldPrice": 90.00,
+            "newPrice": 48.00
+        },
+        "discount": 40,
+        "img": {
+            "singleImage": "img/shop/6.png",
+
+            "thumbs": [
+                "img/shop/6.png"
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "name": "Pizza",
+        "price": {
+            "oldPrice": 165.00,
+            "newPrice": 119.90
+        },
+        "discount": 40,
+        "img": {
+            "singleImage": "img/shop/7.png",
+
+            "thumbs": [
+                "img/shop/7.png"
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "name": "Tavuk Sandviç",
+        "price": {
+            "oldPrice": 165.00,
+            "newPrice": 140.00
+        },
+        "discount": 40,
+        "img": {
+            "singleImage": "img/shop/8.png",
+
+            "thumbs": [
+                "img/shop/8.png"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "name": "Kraker",
+        "price": {
+            "oldPrice": 50.00,
+            "newPrice": 48.00
+        },
+        "discount": 40,
+        "img": {
+            "singleImage": "img/shop/9.png",
+
+            "thumbs": [
+                "img/shop/9.png"
+            ]
+        }
+    }
+]
