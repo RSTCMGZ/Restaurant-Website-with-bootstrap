@@ -1,9 +1,7 @@
-
-
 //! add to cart start
-let products = []
-let cart = []
-cart = localStorage.getItem("cart") ? JSON.parse(localStorage.getItem("cart")) : []
+export let products = localStorage.getItem("products") ? JSON.parse(localStorage.getItem("products")) : []
+let cart = localStorage.getItem("cart") ? JSON.parse(localStorage.getItem("cart")) : []
+
 function addToCart() {
     const cartItems = document.querySelector(".header-cart-count")
     const buttons = [...document.getElementsByClassName("add-to-cart")]
@@ -15,7 +13,7 @@ function addToCart() {
             button.addEventListener("click", function (e) {
                 e.preventDefault()
                 const id = e.target.dataset.id
-                const findProduct = products.filter(product => product.id === Number(id));
+                const findProduct = products.find(product => product.id == Number(id));
                 cart.push({ ...findProduct, quantity: 1 })
                 localStorage.setItem("cart", JSON.stringify(cart))
                 button.setAttribute("disabled", "disabled")

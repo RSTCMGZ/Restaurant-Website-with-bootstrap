@@ -20,19 +20,20 @@ import addToCart from "./add-to-cart.js"
 // })
 // // //! review end
 //! add product to localStorage start
-async function getData() {
+(async function getData() {
     const photos = await fetch("../js/data.json")
     const data = await photos.json()
     data ? localStorage.setItem("products", JSON.stringify(data)) : []
-    productsFunc()
-}
-getData()
 
-const products = localStorage.getItem("products")
+})()
+
 
 
 //! add product to localStorage end
 
+
 const cartItems = document.querySelector(".header-cart-count")
 
-cartItems.innerHTML = localStorage.getItem("cart") ? JSON.parse(localStorage.getItem("cart")).length : "0"
+cartItems.innerHTML = localStorage.getItem("cart")
+    ? JSON.parse(localStorage.getItem("cart")).length
+    : "0"

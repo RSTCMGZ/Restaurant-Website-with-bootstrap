@@ -49,10 +49,11 @@
   font-weight: 700;
   font-size: 15px !important;
 }
-.delete-cart {
+.remove .delete-cart {
   font-weight: bold !important;
   font-size: 25px;
 }
+
 .cart-table tbody tr td span {
   color: #333 !important;
   font-weight: bold !important;

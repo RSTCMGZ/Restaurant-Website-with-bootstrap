@@ -1,6 +1,4 @@
 
-
-
 function productsFunc() {
   const products = localStorage.getItem("products") ? JSON.parse(localStorage.getItem("products")) : []
   const productsContainer = document.getElementById("product-list")
@@ -46,7 +44,8 @@ function productsFunc() {
         `;
   })
 
-  productsContainer.innerHTML = results
+  productsContainer ? productsContainer.innerHTML = results : "";
+
 }
 
 export default productsFunc()
