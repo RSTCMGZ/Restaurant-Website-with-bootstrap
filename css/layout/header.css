@@ -86,8 +86,8 @@
 }
 .cart-item-desc .close {
   position: absolute;
-  left: 300px;
   top: 0;
+  left: 22%;
 }
 .cart-item-desc .close i {
   font-size: 25px !important;
@@ -139,7 +139,6 @@
   .menu-dropdown-wrapper {
     display: none !important;
   }
-
   .nav-link i,
   .span {
     display: none !important;

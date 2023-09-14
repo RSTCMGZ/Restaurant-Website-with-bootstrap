@@ -91,16 +91,19 @@
   width: 100%;
   padding: 8px 15px;
 }
+
+.shop-meta button,
 .shop-meta a {
   color: #0a0a0a;
   font-size: 16px;
   padding: 2px;
-  border: 1px solid #000;
+  border: 1px solid #000 !important;
 }
-.shop-meta a:hover {
-  background-color: #000 !important;
-  color: #fff !important;
+.shop-meta button:disabled {
+  cursor: no-drop !important;
+  opacity: 0.4 !important;
 }
+
 .shop-meta a i {
   pointer-events: none !important;
 }

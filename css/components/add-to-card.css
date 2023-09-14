@@ -97,15 +97,16 @@ label {
   background-color: #f9c56a;
   color: #000;
 }
-.cart-btn {
-  float: right;
+.shop-meta {
+  float: right !important;
   margin-top: 17px;
 }
-.cart-btn button {
-  text-transform: uppercase !important;
+.shop-meta button,
+.shop-meta i {
   font-weight: bold;
 }
-.cart-btn button:hover {
+
+.cart-btn a:hover {
   background-color: #f9c56a;
   opacity: 0.8;
 }

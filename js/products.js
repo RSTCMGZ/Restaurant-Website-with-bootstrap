@@ -31,9 +31,9 @@ function productsFunc() {
           <div class="shop-price">$${item.price.newPrice.toFixed(2)}</div>
           </div>
           <div class="shop-meta d-flex justify-content-around">
-            <a href="#" class="add-to-cart" data-id="${item.id}">
+            <button  class="add-to-cart " data-id="${item.id}">
               <i class="bi bi-cart"></i> Add to cart
-            </a>
+            </button>
             <a href="#"> <i class="bi bi-heart"></i> Wishlist </a>
           </div>
         </div>
